@@ -1,9 +1,9 @@
+/* Global CSS */
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 body {
@@ -12,16 +12,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.hero {
-    background-color: #1f2937;
-}
-
-footer {
-    background-color: #1f2937;
-}
-
-
 /* header CSS */
+
 header {
     display: flex;
     background-color: #1f2937;
@@ -67,10 +59,12 @@ a:active {
     text-decoration: none;
 }
 
-
-
-
 /* Hero CSS */
+
+.hero {
+    background-color: #1f2937;
+}
+
 .hero-main-text {
     font-size: 48px;
     font-weight: bolder;
@@ -83,9 +77,7 @@ a:active {
 }
 
 .hero {
-    display: flex;
-    
-    
+    display: flex; 
 }
 
 .hero-subtext {
@@ -113,7 +105,7 @@ a:active {
 }
 
 .hero-button {
-    margin-top: 10px;
+    margin-top: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
@@ -124,7 +116,6 @@ a:active {
     font-weight: bolder;
     border-radius: 15px;
     border: #3882f6 3px solid;
-
 }
 
 /* Info CSS */
@@ -135,17 +126,16 @@ a:active {
 
 .info-container {
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;    
     padding-right: 125px;
     padding-left: 125px;
-    padding-bottom: 125px;
-    
+    padding-bottom: 125px; 
 }
 
 .info-child {
     flex: 1;
-    
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .info-image {
@@ -166,8 +156,7 @@ a:active {
     font-size: 18px;
     color: #1f2937;
     font-weight: bolder;
-    padding-right: 60px;
-    
+    padding-right: 60px;    
 }
 
 /* Quote Text */
